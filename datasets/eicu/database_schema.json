@@ -1,0 +1,184 @@
+{
+  "admissiondrug": {
+    "pkey_col": "admissiondrugid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "admissiondx": {
+    "pkey_col": "admissiondxid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "allergy": {
+    "pkey_col": "allergyid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "apacheapsvar": {
+    "pkey_col": "apacheapsvarid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "apachepatientresult": {
+    "pkey_col": "apachepatientresultsid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "apachepredvar": {
+    "pkey_col": "apachepredvarid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "careplancareprovider": {
+    "pkey_col": "cplcareprovderid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "careplaneol": {
+    "pkey_col": "cpleolid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "careplangeneral": {
+    "pkey_col": "cplgeneralid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "careplangoal": {
+    "pkey_col": "cplgoalid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "careplaninfectiousdisease": {
+    "pkey_col": "cplinfectid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "customlab": {
+    "pkey_col": "customlabid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "diagnosis": {
+    "pkey_col": "diagnosisid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "hospital": {
+    "pkey_col": "hospitalid",
+    "fkey_col_to_pkey_table": {}
+  },
+  "infusiondrug": {
+    "pkey_col": "infusiondrugid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "intakeoutput": {
+    "pkey_col": "intakeoutputid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "lab": {
+    "pkey_col": "labid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "medication": {
+    "pkey_col": "medicationid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "microlab": {
+    "pkey_col": "microlabid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "note": {
+    "pkey_col": "noteid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "nurseassessment": {
+    "pkey_col": "nurseassessid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "nursecare": {
+    "pkey_col": "nursecareid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "nursecharting": {
+    "pkey_col": "nursingchartid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "pasthistory": {
+    "pkey_col": "pasthistoryid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "patient": {
+    "pkey_col": "patientunitstayid",
+    "fkey_col_to_pkey_table": {}
+  },
+  "physicalexam": {
+    "pkey_col": "physicalexamid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "respiratorycare": {
+    "pkey_col": "respcareid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "respiratorycharting": {
+    "pkey_col": "respchartid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "treatment": {
+    "pkey_col": "treatmentid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "vitalaperiodic": {
+    "pkey_col": "vitalaperiodicid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  },
+  "vitalperiodic": {
+    "pkey_col": "vitalperiodicid",
+    "fkey_col_to_pkey_table": {
+      "patientunitstayid": "patient"
+    }
+  }
+}
